@@ -17,6 +17,10 @@
   --shadow-hard-sm: 3px 3px 0 #22263b;
 
   --radius-brut: 16px;
+
+  --font-display: var(--font-baloo);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-space-mono);
 }
 
 body {
