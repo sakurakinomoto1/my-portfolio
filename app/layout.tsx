@@ -5,7 +5,7 @@ import "./globals.css";
 const baloo_2 = Baloo_2({
   variable: "--font-baloo",
   subsets: ["latin"],
-  weight: ["700", "800"],
+  weight: ["600", "700"],
 });
 
 const inter = Inter({
@@ -17,7 +17,7 @@ const inter = Inter({
 const spaceMono = Space_Mono({
   variable: "--font-space-mono",
   subsets: ["latin"],
-  weight: ["400", "700"],
+  weight: ["400"],
 });
 
 export const metadata: Metadata = {
