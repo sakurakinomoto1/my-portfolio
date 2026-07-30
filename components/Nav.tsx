@@ -7,25 +7,31 @@ export default function Nav() {
         <span className="w-2.5 h-2.5  bg-accent-primary-deep rounded-full border border-dark"></span>
         fariha ✦
       </div>
-      <a href="#home" className={navLinksStyle}>
-        {" "}
-        Home{" "}
-      </a>
-      <a href="#about" className={navLinksStyle}>
-        {" "}
-        About{" "}
-      </a>
-      <a href="#skills" className={navLinksStyle}>
-        {" "}
-        Skills{" "}
-      </a>
-      <a href="#projects" className={navLinksStyle}>
-        {" "}
-        Projects{" "}
-      </a>
-      <a href="#contact" className={navLinksStyle}>
-        {" "}
-        Contact{" "}
+
+      <div className="flex gap-1 items-center">
+        <a href="#home" className={navLinksStyle}>
+          {" "}
+          Home{" "}
+        </a>
+        <a href="#about" className={navLinksStyle}>
+          {" "}
+          About{" "}
+        </a>
+        <a href="#skills" className={navLinksStyle}>
+          {" "}
+          Skills{" "}
+        </a>
+        <a href="#projects" className={navLinksStyle}>
+          {" "}
+          Projects{" "}
+        </a>
+      </div>
+
+      <a
+        href="#contact"
+        className="font-display font-bold text-sm px-5.5 py-3 border-2 border-dark rounded-xl bg-accent-primary shadow-hard-med transition duration-120 hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-hard-xsm active:translate-x-1 active:translate-y-1 active:shadow-none"
+      >
+        Get in touch
       </a>
     </div>
   );
