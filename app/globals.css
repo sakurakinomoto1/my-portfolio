@@ -14,7 +14,9 @@
   --color-accent-quinary: #d9c9f2;
 
   --shadow-hard: 5px 5px 0 #22263b;
+  --shadow-hard-med: 4px 4px 0 #22263b;
   --shadow-hard-sm: 3px 3px 0 #22263b;
+  --shadow-hard-xsm: 2px 2px 0 #22263b;
 
   --radius-brut: 16px;
 
