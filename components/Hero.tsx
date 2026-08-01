@@ -1,11 +1,16 @@
 export default function Hero() {
+  const highlightBlock =
+    "bg-accent-primary px-2 rounded-md border-2 border-dark inline-block";
   return (
-    <section id="home">
+    <section id="home" className="pt-8 pb-20">
       <div>
-        <span> ✦ CS junior · Houston, TX</span>
-        <h1>
-          I build <span>quality</span> applications that serve{" "}
-          <span>communities</span>
+        <span className="font-mono text-xs uppercase tracking-wider text-accent-quaternary-deep inline-flex items-center gap-1.5">
+          {" "}
+          CS junior · Houston, TX
+        </span>
+        <h1 className = "font-display font-bold text-[2.1rem] md:text-[3.3rem] mt-3.5">
+          I build <span className={highlightBlock}>quality</span> applications
+          that serve <span className={highlightBlock}>communities</span>
         </h1>
         <p>
           I&apos;m a CS student at the University of Houston who enjoys building
