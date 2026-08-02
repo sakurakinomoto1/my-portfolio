@@ -13,6 +13,7 @@
   --color-accent-tertiary: #bfe3c9;
   --color-accent-quinary: #d9c9f2;
 
+  --shadow-hard-lg: 8px 8px 0 #22263b;
   --shadow-hard: 5px 5px 0 #22263b;
   --shadow-hard-med: 4px 4px 0 #22263b;
   --shadow-hard-sm: 3px 3px 0 #22263b;
@@ -23,6 +24,7 @@
   --font-display: var(--font-baloo);
   --font-sans: var(--font-inter);
   --font-mono: var(--font-space-mono);
+  --font-handwritten: var(--font-caveat);
 }
 
 body {

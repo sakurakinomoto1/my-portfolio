@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Baloo_2, Inter, Space_Mono } from "next/font/google";
+import { Baloo_2, Inter, Space_Mono, Caveat} from "next/font/google";
 import "./globals.css";
 
 const baloo_2 = Baloo_2({
@@ -20,6 +20,12 @@ const spaceMono = Space_Mono({
   weight: ["400"],
 });
 
+const caveat = Caveat({
+  variable: "--font-caveat",
+  subsets: ["latin"],
+  weight: ["600"],
+});
+
 export const metadata: Metadata = {
   title: "Fariha Adil | Web and Content Developer Intern",
 };
@@ -32,7 +38,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${baloo_2.variable} ${inter.variable} ${spaceMono.variable} h-full antialiased`}
+      className={`${baloo_2.variable} ${inter.variable} ${spaceMono.variable} ${caveat.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
