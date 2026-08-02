@@ -19,7 +19,9 @@ export default function Hero() {
           <p className="text-base max-w-120 mt-4.5 text-[#43485f]">
             I&apos;m a Computer Science student at the University of Houston who
             loves building technology that solves real problems, empowers
-            communities, and puts people first.
+            communities, and puts people first. I love learning new technologies
+            and building fun projects! When I&apos;m not coding, you can usually
+            find me binge-watching anime, baking, or nose-deep in a good book.
           </p>
 
           <div className="inline-flex items-center gap-2 mt-4.5 bg-card border-2 border-dark rounded-full pl-2.5 pr-3.5 py-1.5 font-mono text-[0.78rem] shadow-hard-sm">
@@ -38,18 +40,26 @@ export default function Hero() {
             </a>
           </div>
         </div>
-        <div>
-          <span>hi, it&apos;s me!</span>
-          <div>
-            <Image
-              src="/fariha_adil.jpg"
-              alt="Fariha Adil"
-              width={300}
-              height={300}
-            />
-            <div>
-              <strong>2027</strong>
-              <span>UH · CS Grad</span>
+        <div className="relative flex justify-center">
+          {/* <span className="absolute -top-7.5 left-1.5 font-handwritten text-xl text-accent-quaternary-deep -rotate-6 z-10">
+            hi, it&apos;s me!
+          </span> */}
+          <div className="relative w-75 aspect-square bg-card border-2 border-dark rounded-2xl shadow-hard-lg">
+            <div className="relative w-full h-full overflow-hidden rounded-xl">
+              <Image
+                className="object-cover"
+                src="/fariha_adil.jpg"
+                alt="Fariha Adil"
+                fill
+              />
+            </div>
+            <div className="absolute -bottom-5.5 -right-4.5 bg-accent-secondary border-2 border-dark rounded-xl px-4 py-3 shadow-hard text-center min-w-25">
+              <strong className="block font-display text-xl leading-none">
+                2027
+              </strong>
+              <span className="font-mono text-[0.65rem] uppercase tracking-wide text-accent-quaternary-deep">
+                UH · CS Grad
+              </span>
             </div>
           </div>
         </div>
